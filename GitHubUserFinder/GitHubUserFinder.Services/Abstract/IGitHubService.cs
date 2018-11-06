@@ -8,7 +8,7 @@ namespace GitHubUserFinder.Services.Abstract
 {
     public interface IGitHubService
     {
-        //IEnumerable<Repository> getMostStarredRepositories(int count);
         Task<User> getUserInfoAsync(string login);
+        Task<List<Repository>> getUserMostStarredRepositoriesAsync(string login, int limit);
     }
 }
