@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubUserFinder", "GitHubUserFinder\GitHubUserFinder.csproj", "{66499593-5FB0-430E-9B1F-28E66D4B5090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubUserFinder.Models", "GitHubUserFinder.Models\GitHubUserFinder.Models.csproj", "{82E8AAD4-E157-4160-B15F-F58C96A33D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubUserFinder.Services", "GitHubUserFinder.Services\GitHubUserFinder.Services.csproj", "{92306802-0AA7-4F49-BECF-C72124372BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubUserFinder.Tests", "GitHubUserFinder.Tests\GitHubUserFinder.Tests.csproj", "{BB85AD8C-729D-47FC-B626-60D4B86388D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubUserFinder.Api", "GitHubUserFinder.Api\GitHubUserFinder.Api.csproj", "{F8324BC3-33CA-4009-88FF-5BC96818C23B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{66499593-5FB0-430E-9B1F-28E66D4B5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66499593-5FB0-430E-9B1F-28E66D4B5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66499593-5FB0-430E-9B1F-28E66D4B5090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E8AAD4-E157-4160-B15F-F58C96A33D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E8AAD4-E157-4160-B15F-F58C96A33D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E8AAD4-E157-4160-B15F-F58C96A33D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E8AAD4-E157-4160-B15F-F58C96A33D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92306802-0AA7-4F49-BECF-C72124372BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92306802-0AA7-4F49-BECF-C72124372BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92306802-0AA7-4F49-BECF-C72124372BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92306802-0AA7-4F49-BECF-C72124372BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB85AD8C-729D-47FC-B626-60D4B86388D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB85AD8C-729D-47FC-B626-60D4B86388D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB85AD8C-729D-47FC-B626-60D4B86388D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB85AD8C-729D-47FC-B626-60D4B86388D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8324BC3-33CA-4009-88FF-5BC96818C23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8324BC3-33CA-4009-88FF-5BC96818C23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8324BC3-33CA-4009-88FF-5BC96818C23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8324BC3-33CA-4009-88FF-5BC96818C23B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
